@@ -1,0 +1,49 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+<title>Lossy and Lossless</title>
+</head>
+<body>
+<nav>
+<a href= "index.html">Index<a/>
+<a href= "image.html">Images</a>
+<a href= "audio.html">Audio</a>
+<a href= "reference.html">Reference</a>
+</nav>
+<h1>The difference between Lossy and lossless images</h1>
+<h3>Why is it important for web designers to compress image files?</h3>
+<p>To make loading time less</p>
+<h2>The effects of lossy and lossless compression</h2>
+<table border ="1" style="width:50%">
+  <tr>
+    <th>Images</th>
+    <th>Quality</th> 
+    <th>Bytes</th>
+	<th>Comment</th>
+  </tr>
+  <tr>
+  <td><img src="images/1.jpg"/></td>
+  <td>Highest Quality Q=100</td>
+  <td>254,121</td>
+  <td>Extremely minor artefacts</td>
+  </tr>
+  <tr>
+  <td><img src="images/2.jpg"/></td>
+  <td>High Quality Q=33</td>
+  <td>248,432</td>
+  <td>Initial signs of frequency loss</td>
+  </tr>
+  <tr>
+  <td><img src="images/3.jpg"/></td>
+  <td>Medium Quality Q=25</td>
+  <td>154,408</td>
+  <td>Loss of high frequency information</td>
+  </tr>
+  <tr>
+  <td><img src="images/4.jpg" width=100%/></td>
+  <td>Low Quality Q=10</td>
+  <td>7,413</td>
+  <td>Severe frequency loss</td>
+</table>
+</body>
+</html>
